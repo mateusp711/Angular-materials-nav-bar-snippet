@@ -1,0 +1,195 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mat-option-flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.langFlag {
+  margin-left: 0.5rem;
+}
+
+.select-language {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.example-toolbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  padding: 0px;
+  border-bottom: solid 1px rgb(227, 227, 227);
+  margin-left: 0;
+  max-width: 100%;
+  transition: 0.25s;
+
+  span {
+    margin-left: 1rem;   
+    font-size: 13px;
+    opacity: 60%; 
+  }
+}
+
+.toolbar-shrinked {
+  margin-left: 203px;
+  max-width: calc(100% - 203px);
+}
+
+.example-sidenav-container {
+  min-height: calc(100vh - 64px);
+  flex: 1;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.25s;
+  background-color: #fff;
+}
+
+.shrinked-content {
+  margin-left: 203px;
+  width: calc(100% - 203px);
+}
+
+.normal-content {
+  margin-left: 0;
+  width: 100%;
+}
+
+.example-sidenav {
+  background-color: rgb(0, 132, 255);
+  min-width: none;
+  z-index: 0;
+  transition: 0.25s;
+  max-width: 276px;
+}
+
+.mat-list-item {
+  color: black;
+}
+
+.mat-list-base .mat-list-item .mat-list-item-content,
+.mat-list-base .mat-list-option .mat-list-item-content {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.icons-side-bar {
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.mat-drawer {
+  background: rgb(0, 132, 255);
+  min-width: 65px;
+}
+
+.mat-toolbar {
+  opacity: 0.9;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
+mat-icon {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  padding-top: 0%;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f9f8f3;
+  opacity: 0.9;
+  transition: 0.25s;
+}
+
+.mat-elevation-z8 {
+  margin-top: 1em;
+}
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.mat-divider {
+  margin-top: 7px;
+  border-top-color: rgb(227, 227, 227);
+}
+
+.sidenav-items img {
+  width: 2.5em;
+}
+
+.top-span {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.user-photo {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#more-vert {
+  transform: rotate(90deg);
+}
+
+#name-span {
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1em;
+  margin-top: 1em;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#email-span {
+  font-size: 0.58em;
+  font-weight: 400;
+  margin-bottom: 1em;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 2em;
+}
+
+#toggle-button {
+  background: #d9d9d9;
+  border-radius: 14px;
+  color: #000000;
+  margin-top: 2.6em;
+  position: absolute;
+  z-index: 50;
+}
+
+.logo-item {
+  padding-top: 7px !important;
+  padding-bottom: 8px !important;
+  background-color: #fff;
+}
+
+.logo-item:hover {
+  background-color: #d9d9d9 !important;
+}
+
+.mat-drawer-side {
+  border-right: solid 1px rgb(227, 227, 227);
+}
